@@ -3,7 +3,7 @@ package com.scaler.designpatterns.factory.version3;
 public class Client {
 
     public static void main(String[] args) {
-        Database db;
+        Database db;//  = DatabasePracticalFactory.createDatabaseForInput();
 
         DatabaseFactory dbf = db.createDatabaseFactory();
 

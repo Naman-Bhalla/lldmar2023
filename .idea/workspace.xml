@@ -5,31 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87dfe0f3-14c4-4550-9ada-da9f5982fa98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/MySQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/MySQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/PostgreSQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/PostgreSQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/MySQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/MySQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/PostgreSQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/PostgreSQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/DatabaseFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/MySQLDBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/MySQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/MySQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/PostgreSQLDBFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/PostgreSQLDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/PostgreSQLQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/CCAvenuePGAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/JuspayPGAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/PaymentGatewayInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/RazorpayPGAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/Scaler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/CCAvenuePG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/JuspayPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/RazorpayPG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/Flipkart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/InventoryManagementSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/SMSService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/Mode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/BikePathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/CarPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PathCalculatorStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PublicPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/WalkPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/before/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/before/Mode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +40,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2MSwsmWb8JRu45SM8vi4eX6UNC3" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -69,7 +67,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "full.screen.before.presentation.mode": "false",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/lldmar2023/lldmar2023/src/main/java/com/scaler/designpatterns/factory/version3",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/lldmar2023/lldmar2023/src/main/java/com/scaler/designpatterns/strategy/after",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +79,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after" />
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3" />
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2" />
     </key>
@@ -172,7 +172,9 @@
       <workItem from="1678552310490" duration="1772000" />
       <workItem from="1678816455684" duration="620000" />
       <workItem from="1679591262239" duration="2582000" />
-      <workItem from="1680193310249" duration="645000" />
+      <workItem from="1680193310249" duration="2441000" />
+      <workItem from="1680365872258" duration="1985000" />
+      <workItem from="1680969995227" duration="1846000" />
     </task>
     <servers />
   </component>
@@ -201,6 +203,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/builder/Client.java</url>
           <line>43</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/builder/Client.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
