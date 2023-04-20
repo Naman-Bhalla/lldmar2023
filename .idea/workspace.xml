@@ -5,32 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87dfe0f3-14c4-4550-9ada-da9f5982fa98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/CCAvenuePGAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/JuspayPGAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/PaymentGatewayInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/RazorpayPGAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/Scaler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/CCAvenuePG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/JuspayPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/adapter/thirdparty/RazorpayPG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/Flipkart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/InventoryManagementSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/InvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/before/SMSService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/Mode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/BikePathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/CarPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PathCalculatorStrategyFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/PublicPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after/pathcalculatorstrategy/WalkPathCalculatorStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/before/GoogleMaps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/before/Mode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Bot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Cell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/CellState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/GameState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/PlayerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Symbol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/BotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,28 +48,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/namanbhalla/IdeaProjects/lldmar2023/lldmar2023/src/main/java/com/scaler/designpatterns/strategy/after",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/namanbhalla/IdeaProjects/lldmar2023/lldmar2023/src/main/java/com/scaler/designpatterns/observer/after&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/observer/after" />
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/strategy/after" />
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3" />
       <recent name="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.scaler.designpatterns.observer.before" />
     </key>
   </component>
   <component name="RunManager" selected="Application.com.scaler.designpatterns.builder.Client">
@@ -174,7 +166,9 @@
       <workItem from="1679591262239" duration="2582000" />
       <workItem from="1680193310249" duration="2441000" />
       <workItem from="1680365872258" duration="1985000" />
-      <workItem from="1680969995227" duration="1846000" />
+      <workItem from="1680969995227" duration="3556000" />
+      <workItem from="1681316205514" duration="31000" />
+      <workItem from="1682011594626" duration="558000" />
     </task>
     <servers />
   </component>
