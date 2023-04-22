@@ -5,20 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87dfe0f3-14c4-4550-9ada-da9f5982fa98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Bot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/BotDifficultyLevel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Cell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/CellState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/GameState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/PlayerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Symbol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/BotPlayingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/controllers/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/exceptions/DuplicateSymbolException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/exceptions/MoreThanOneBotException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/exceptions/PlayersCountDimensionMismatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/BotPlayingStrategyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/EasyBotPlayingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/ColWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/DiagonalWinningStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/RowWinningStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version1/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version2/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/designpatterns/factory/version3/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/BotDifficultyLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/BotDifficultyLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Symbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Symbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/botplayingstrategies/BotPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -76,13 +86,13 @@
       <recent name="com.scaler.designpatterns.observer.before" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.scaler.designpatterns.builder.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.introtooop.Client" />
+  <component name="RunManager" selected="Application.com.scaler.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.accessmodifiers.Main" />
       <module name="lldmar2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.introtooop.*" />
+          <option name="PATTERN" value="com.scaler.accessmodifiers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.scaler.accessmodifiers.Main" />
+    <configuration name="com.scaler.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.scaler.Main" />
       <module name="lldmar2023" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scaler.accessmodifiers.*" />
+          <option name="PATTERN" value="com.scaler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.scaler.Main" />
         <item itemvalue="Application.com.scaler.designpatterns.builder.Client" />
         <item itemvalue="Application.com.scaler.constructorchaining.Client" />
         <item itemvalue="Application.com.scaler.constructors.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +178,8 @@
       <workItem from="1680365872258" duration="1985000" />
       <workItem from="1680969995227" duration="3556000" />
       <workItem from="1681316205514" duration="31000" />
-      <workItem from="1682011594626" duration="558000" />
+      <workItem from="1682011594626" duration="1273000" />
+      <workItem from="1682178597287" duration="6940000" />
     </task>
     <servers />
   </component>

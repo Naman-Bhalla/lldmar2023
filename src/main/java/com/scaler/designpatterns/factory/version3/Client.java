@@ -5,7 +5,7 @@ public class Client {
     public static void main(String[] args) {
         Database db;//  = DatabasePracticalFactory.createDatabaseForInput();
 
-        DatabaseFactory dbf = db.createDatabaseFactory();
+//        DatabaseFactory dbf = db.createDatabaseFactory();
 
 //        if (db instanceof MySQLDatabase) {
 //            dbf = new MySQLDBFactory();
@@ -13,7 +13,7 @@ public class Client {
 //            dbf = new PostgreSQLDBFactory();
 //        }
 
-        Query q = dbf.createQuery();
+//        Query q = dbf.createQuery();
 
         
     }

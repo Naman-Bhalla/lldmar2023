@@ -7,11 +7,11 @@ public class Client {
 
         Query q;
 
-        if (db instanceof PostgreSQLDatabase) {
-            q = new PostgreSQLQuery();
-        } else if (db instanceof  MySQLDatabase) {
-            q = new MySQLQuery();
-        }
+//        if (db instanceof PostgreSQLDatabase) {
+//            q = new PostgreSQLQuery();
+//        } else if (db instanceof  MySQLDatabase) {
+//            q = new MySQLQuery();
+//        }
 
 
     }

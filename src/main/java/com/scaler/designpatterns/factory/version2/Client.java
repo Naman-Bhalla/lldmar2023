@@ -5,7 +5,7 @@ public class Client {
     public static void main(String[] args) {
         Database db;
 
-        Query q = db.createQuery();
+//        Query q = db.createQuery();
 
         
     }
