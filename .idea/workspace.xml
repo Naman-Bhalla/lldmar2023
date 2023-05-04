@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87dfe0f3-14c4-4550-9ada-da9f5982fa98" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/ColWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/ColWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/DiagonalWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/DiagonalWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/RowWinningStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/scaler/tictactoe/strategies/winningstrategies/WinningStrategy.java" afterDir="false" />
-    </list>
+    <list default="true" id="87dfe0f3-14c4-4550-9ada-da9f5982fa98" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +156,7 @@
       <workItem from="1682011594626" duration="1273000" />
       <workItem from="1682178597287" duration="7851000" />
       <workItem from="1682528523297" duration="30000" />
-      <workItem from="1682609895607" duration="3034000" />
+      <workItem from="1682609895607" duration="4198000" />
     </task>
     <servers />
   </component>
